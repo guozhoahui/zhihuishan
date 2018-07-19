@@ -1,0 +1,385 @@
+
+* @Author: ASUS
+* @Date:   2018-07-10 13:07:10
+* @Last Modified by:   ASUS
+* @Last Modified time: 2018-07-17 22:49:19
+*/
+@import url("bass.css");
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #fff;
+}
+.aside{
+	width: 32px;
+	height: 32px;
+	position: fixed;
+	top: 50%;
+	right: 0;
+}
+.aside:hover{
+	cursor: pointer;
+}
+.aside i{
+	font-size: 32px;
+}
+.header{
+	width: 1140px;
+	height: 78.5px;
+	margin: 0 auto;
+
+	padding-bottom: 10px;
+}
+.header .logo{
+	width: 198px;
+	height: 78px;
+	float: left;
+	background-color: #fff;
+}
+.header .slogan{
+	width: 174px;
+	height: 78px;
+	/* font-size: 18px; */
+	
+	float: left;
+	text-align: center;
+	color: #777;
+	font-weight: bold;
+	line-height: 78px;
+}
+.header .select{
+	width: 400px;
+	height: 78px;
+	float: right;
+}
+.header .select .top{
+	width: 81px;
+	height: 20px;
+	float: right;
+	margin-top: 8px;
+}
+.header .select .top .left{
+	width: 40px;
+	height: 20px;
+	float: left;
+	border-right: 1px solid #ccc;
+
+}
+.header .select .top .right{
+	width: 40px;
+	height: 20px;
+	float: right;
+}
+.header .select .top .left a{
+	display: block;
+	margin-left: 5px;
+	font-size: 13px;
+	color: #0D3D88;
+}
+.header .select .top .right a{
+	display: block;
+	margin-left: 5px;
+	font-size: 13px;
+	color: #0D3D88;
+}
+.header .select .top a:hover{
+	color: #b3d4fc;
+}
+.header .select .bottom{
+	width: 400px;
+	height: 32px;
+	float: right;
+	margin-top: 8px;
+	border-radius: 16px;
+	border: 1px solid #bababa;
+
+}
+.header .select .bottom .left{
+	width: 76px;
+	height: 32px;
+	float: left;
+
+	border-right: 1px solid #bababa;
+	background-color: #e3e3e3;
+	border-top-left-radius: 16px;
+	border-bottom-left-radius: 16px;
+}
+.header .select .bottom .left span{
+	display: block;
+	float: left;
+	color: #333;
+	text-align: center;
+	line-height: 32px;
+	font-size: 13px;
+	margin-left: 10px;
+}
+.header .select .bottom .left span:hover{
+	color: #347aeb;
+}
+.header .select .bottom .left:hover{
+	cursor: pointer;
+}
+.header .select .bottom .left i{
+	display: block;
+	float: left;
+	line-height: 32px;
+}
+.header .select .bottom .center{
+	width: 278px;
+	height: 32px;
+	float: left;
+	background-color: #fff;
+}
+.header .select .bottom .center  .sousuo{
+	display: block;
+	width: 274px;
+	height: 27px;
+}
+.header .select .bottom .right{
+	width: 44px;
+	height: 32px;
+	float: left;
+	border-left: 1px solid #bababa;
+	background-color: #e3e3e3;
+	border-top-right-radius: 16px;
+	border-bottom-right-radius: 16px;
+
+}
+.header .select .bottom .right i{
+	display: block;
+	line-height: 32px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+.header .select .bottom .right:hover{
+	cursor: pointer;
+	color: #347aeb;
+}
+/* 导航条开始 */
+.navbar{
+	width: 1140px;
+	height: 41px;
+	border: 1px solid #ddd;
+	border-bottom-color: #ccc;
+	border-radius: 4px;
+	margin: 0 auto;
+	display: flex;
+
+}
+.navbar .box{
+	border-right: 1px solid #ddd;
+	background-color: #F0F0F0;
+	flex-grow: 1;
+	text-align: center;
+	line-height: 41px;
+	color: black;
+	font-weight: bold;
+}
+.navbar .box:hover{
+	background-color: #FBFBFB;
+}
+.navbar .box:first-child{
+	background-color: #FBFBFB;
+}
+/* .navbar:hover{
+	cursor: pointer;
+} */
+/* 导航条结束 */
+/* 轮播图开始 */
+.lunbotu{
+	width: 1140px;
+	height: 363px;
+	background-color: red;
+	margin: 0 auto;
+	margin-top: 14px;
+	position: relative;
+	overflow: hidden;
+
+}
+.lunbotu .box{
+	width: 1140px;
+	height: 363px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.lunbotu .btn span{
+	display: block;
+	width: 50px;
+	height: 100px;
+	color: #fff;
+	font-size: 40px;
+	line-height: 100px;
+	text-align: center;
+	cursor: pointer;
+}
+.lunbotu .btn .prev{
+	position: absolute;
+	left: 50px;
+	top: 50%;
+	margin-top: -50px;
+
+}
+.lunbotu .btn .next{
+	position: absolute;
+	right: 50px;
+	top: 50%;
+	margin-top: -50px;
+
+}
+/* .lunbotu .left{
+	width: 114px;
+	height: 363px;
+	background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+	transform-origin: 
+} */
+/* 轮播图结束 */
+/* 故事栏开始 */
+.bigbox{
+	width: 1140px;
+	padding-top: 10px;
+/* 	display: flex;
+	justify-content: space-around; */
+	margin: 0 auto;
+	overflow: hidden;
+}
+.writings{
+	width: 364.5px;
+	height: 373px;
+	border: 1px solid #ddd;
+	margin-right: 20px;
+	border-radius: 2px;
+	float: left;
+}
+.bigbox .top{
+	width: 100%;
+	height: 45px;
+	background-color: #F5F5F5;
+	border-bottom: 1px solid #ddd;
+}
+.bigbox .box{
+	height: 37px;
+	width: 100px;
+	margin-top: 5px;
+	padding-left: 20px;
+
+}
+.bigbox .box i{
+	line-height: 37px;
+	text-align: left;
+	font-size: 14px;
+}
+.bigbox .box span{
+	text-align: left;
+	font-size: 15px;
+}
+.bigbox .bottom{
+	width: 100%;
+	height: 327px;
+}
+.bigbox .bottom .panel{
+	width: 320px;
+	height: 100%;
+	margin-left: 20px;
+	
+}
+.bigbox .bottom .panel li{
+	padding: 5px 15px 5px 30px;	
+}
+.bigbox .bottom .panel span{
+	display: block;
+	margin-left: -30px;
+	color: #0D3D88;
+}
+.bigbox .bottom .panel span:hover{
+	cursor: pointer;
+}
+.story{
+	width: 364.5px;
+	height: 373px;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+		float: left;
+
+
+}
+.resource{
+	width: 364.5px;
+	height: 373px;
+	margin-left:  20px;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	float: left;
+
+}
+/* 底部开始 */
+.footer{
+	width: 1140px;
+	height: 238px;
+	background-color: #F7F7F7;
+	border: 1px solid #dddddd;
+	margin-top: 40px;
+	margin: 20px auto 50px auto;
+	display: flex;
+	flex-direction: row-reverse;
+	overflow: hidden;
+
+}
+.footer .box{
+	width: 1108px;
+	height: 100%;
+	display: flex;
+	float: right;
+}
+.footer .box div{
+	width: 25%;
+	height: 80%;
+	
+}
+.footer .box .first h2{
+	display: block;
+	width: 100%;
+	margin-top: 40px;
+	font-size: 15px;
+	text-align: left;
+}
+.footer .box .first p{
+	display: block;
+	width: 120px;
+	height: 120px;
+	margin-top: 10px;
+	
+	
+}
+.footer .box .then h2{
+	display: block;
+	width: 100%;
+	margin-top: 40px;
+	font-size: 15px;
+	text-align: left;
+}
+.footer .box .then p{
+	display: block;
+	margin-top: 10px;
+	font-size: 13px;
+	display: block;
+}
+.footer .box .then a{
+	display: inline-block;
+	width: 100%;
+	color: #777;
+	font-size: 13px;
+}	
+.footer .box a:hover{
+	color: #0D3D88;
+}	
+.footer .box p:hover{
+	color: #0D3D88;
+}	

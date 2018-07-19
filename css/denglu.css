@@ -1,0 +1,367 @@
+/*
+* @Author: ASUS
+* @Date:   2018-07-16 17:12:58
+* @Last Modified by:   ASUS
+* @Last Modified time: 2018-07-17 22:46:19
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #fff;
+}
+.aside{
+	width: 32px;
+	height: 32px;
+	position: fixed;
+	top: 50%;
+	right: 0;
+}
+.aside:hover{
+	cursor: pointer;
+}
+.aside i{
+	font-size: 32px;
+}
+.header{
+	width: 1140px;
+	height: 78.5px;
+	margin: 0 auto;
+
+	padding-bottom: 10px;
+}
+.header .logo{
+	width: 198px;
+	height: 78px;
+	float: left;
+	background-color: #fff;
+}
+.header .slogan{
+	width: 174px;
+	height: 78px;
+	/* font-size: 18px; */
+	
+	float: left;
+	text-align: center;
+	color: #777;
+	font-weight: bold;
+	line-height: 78px;
+}
+.header .select{
+	width: 400px;
+	height: 78px;
+	float: right;
+}
+.header .select .top{
+	width: 81px;
+	height: 20px;
+	float: right;
+	margin-top: 8px;
+}
+.header .select .top .left{
+	width: 40px;
+	height: 20px;
+	float: left;
+	border-right: 1px solid #ccc;
+
+}
+.header .select .top .right{
+	width: 40px;
+	height: 20px;
+	float: right;
+}
+.header .select .top .left a{
+	display: block;
+	margin-left: 5px;
+	font-size: 13px;
+	color: #0D3D88;
+}
+.header .select .top .right a{
+	display: block;
+	margin-left: 5px;
+	font-size: 13px;
+	color: #0D3D88;
+}
+.header .select .top a:hover{
+	color: #b3d4fc;
+}
+.header .select .bottom{
+	width: 400px;
+	height: 32px;
+	float: right;
+	margin-top: 8px;
+	border-radius: 16px;
+	border: 1px solid #bababa;
+
+}
+.header .select .bottom .left{
+	width: 76px;
+	height: 32px;
+	float: left;
+
+	border-right: 1px solid #bababa;
+	background-color: #e3e3e3;
+	border-top-left-radius: 16px;
+	border-bottom-left-radius: 16px;
+}
+.header .select .bottom .left span{
+	display: block;
+	float: left;
+	color: #333;
+	text-align: center;
+	line-height: 32px;
+	font-size: 13px;
+	margin-left: 10px;
+}
+.header .select .bottom .left span:hover{
+	color: #347aeb;
+}
+.header .select .bottom .left:hover{
+	cursor: pointer;
+}
+.header .select .bottom .left i{
+	display: block;
+	float: left;
+	line-height: 32px;
+}
+.header .select .bottom .center{
+	width: 278px;
+	height: 32px;
+	float: left;
+	background-color: #fff;
+}
+.header .select .bottom .center  .sousuo{
+	display: block;
+	width: 274px;
+	height: 29px;
+}
+
+.header .select .bottom .right{
+	width: 44px;
+	height: 32px;
+	float: left;
+	border-left: 1px solid #bababa;
+	background-color: #e3e3e3;
+	border-top-right-radius: 16px;
+	border-bottom-right-radius: 16px;
+
+}
+.header .select .bottom .right i{
+	display: block;
+	line-height: 32px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+.header .select .bottom .right:hover{
+	cursor: pointer;
+	color: #347aeb;
+}
+/* 导航条开始 */
+.navbar{
+	width: 1140px;
+	height: 41px;
+	border: 1px solid #ddd;
+	border-bottom-color: #ccc;
+	border-radius: 4px;
+	margin: 0 auto;
+	display: flex;
+
+}
+.navbar .box{
+	border-right: 1px solid #ddd;
+	background-color: #F0F0F0;
+	flex-grow: 1;
+	text-align: center;
+	line-height: 41px;
+	color: black;
+	font-weight: bold;
+}
+.navbar .box:hover{
+	background-color: #FBFBFB;
+}
+.navbar .box:first-child{
+	background-color: #FBFBFB;
+}
+
+/* 导航条结束 */
+.row{
+	width: 1140px;
+	height: 378px;
+	border: 1px solid #bababa;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.row .left{
+	width: 50%;
+	height: 100%;
+	float: left;
+/* 	background-color: yellow; */
+}
+.row .right{
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+.row .box{
+	width: 80%;
+	height: 37px;
+	margin: 0 auto;
+	margin-top:35px ;
+	border-bottom: 1px solid #bababa;
+	padding-left: 15px;
+	font-size: 13px;
+	line-height: 37px;
+	font-weight: bold;
+}
+.row .left .way{
+	display: block;
+	width: 407px;
+	height: 72px;
+	border: 1px solid #bababa;
+	margin-left: 62px;
+	margin-top: 15px;
+	border-radius: 3px;
+	background-color: #F2F2F2;
+}
+.row .left .way .logo{
+	width: 48px;
+	height: 48px;
+	padding-top: 12px;
+	float: left;
+	margin-left: 90px;
+}
+.row .left .way .logo i{
+	display: block;
+	width: 48px;
+	height: 48px;
+	font-size: 48px;
+	line-height: 48px;
+		
+}
+.row .left .way  span{
+	display: block;
+	width: 200px;
+	height: 72px;
+	font-size: 24px;
+	font-weight: bold;
+	float: left;
+	line-height: 72px;
+	padding-left: 25px;
+}
+.right .name{
+	display: block;
+	height: 28px;
+	width: 450px;
+	padding: 10px 16px;
+	font-size: 17px;
+	margin: 15px auto;
+	border-radius: 3px;
+}
+.right .psw{
+	display: block;
+	width: 450px;
+	height: 28px;
+	padding: 10px 16px;
+	font-size: 17px;
+	margin: 30px auto;
+	border-radius: 3px;
+
+}
+.right .denglu{
+	display: block;
+	width:40px;
+	height: 28px;
+	margin-left: 42px;
+	padding: 10px 16px;
+	font-size: 17px;
+	border-radius: 3px;
+	float: left;
+	background-color: #b3d4fc;
+}
+.right .denglu:hover{
+	cursor: pointer;
+}
+.right .zhuce{
+	display: block;
+	width:40px;
+	height: 28px;
+	margin-left: 42px;
+	padding: 10px 16px;
+	font-size: 17px;
+	border-radius: 3px;
+	float: left;
+}
+.right .zhuce:hover{
+	cursor: pointer;
+}
+/* 底部开始 */
+.footer{
+	width: 1140px;
+	height: 238px;
+	background-color: #F7F7F7;
+	border: 1px solid #dddddd;
+	margin-top: 40px;
+	margin: 20px auto 50px auto;
+	display: flex;
+	flex-direction: row-reverse;
+	overflow: hidden;
+
+}
+.footer .box{
+	width: 1108px;
+	height: 100%;
+	display: flex;
+	float: right;
+}
+.footer .box div{
+	width: 25%;
+	height: 80%;
+	
+}
+.footer .box .first h2{
+	display: block;
+	width: 100%;
+	margin-top: 40px;
+	font-size: 15px;
+	text-align: left;
+}
+.footer .box .first p{
+	display: block;
+	width: 120px;
+	height: 120px;
+	margin-top: 10px;
+	
+	
+}
+.footer .box .then h2{
+	display: block;
+	width: 100%;
+	margin-top: 40px;
+	font-size: 15px;
+	text-align: left;
+}
+.footer .box .then p{
+	display: block;
+	margin-top: 10px;
+	font-size: 13px;
+	display: block;
+}
+.footer .box .then a{
+	display: inline-block;
+	width: 100%;
+	color: #777;
+	font-size: 13px;
+}	
+.footer .box a:hover{
+	color: #0D3D88;
+}	
+.footer .box p:hover{
+	color: #0D3D88;
+}	

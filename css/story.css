@@ -1,0 +1,366 @@
+/*
+* @Author: ASUS
+* @Date:   2018-07-15 12:40:18
+* @Last Modified by:   ASUS
+* @Last Modified time: 2018-07-17 22:47:56
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #fff;
+}
+.aside{
+	width: 32px;
+	height: 32px;
+	position: fixed;
+	top: 50%;
+	right: 0;
+}
+.aside:hover{
+	cursor: pointer;
+}
+.aside i{
+	font-size: 32px;
+}
+.header{
+	width: 1140px;
+	height: 78.5px;
+	margin: 0 auto;
+
+	padding-bottom: 10px;
+}
+.header .logo{
+	width: 198px;
+	height: 78px;
+	float: left;
+	background-color: #fff;
+}
+.header .slogan{
+	width: 174px;
+	height: 78px;
+	/* font-size: 18px; */
+	
+	float: left;
+	text-align: center;
+	color: #777;
+	font-weight: bold;
+	line-height: 78px;
+}
+.header .select{
+	width: 400px;
+	height: 78px;
+	float: right;
+}
+.header .select .top{
+	width: 81px;
+	height: 20px;
+	float: right;
+	margin-top: 8px;
+}
+.header .select .top .left{
+	width: 40px;
+	height: 20px;
+	float: left;
+	border-right: 1px solid #ccc;
+
+}
+.header .select .top .right{
+	width: 40px;
+	height: 20px;
+	float: right;
+}
+.header .select .top .left a{
+	display: block;
+	margin-left: 5px;
+	font-size: 13px;
+	color: #0D3D88;
+}
+.header .select .top .right a{
+	display: block;
+	margin-left: 5px;
+	font-size: 13px;
+	color: #0D3D88;
+}
+.header .select .top a:hover{
+	color: #b3d4fc;
+}
+.header .select .bottom{
+	width: 400px;
+	height: 31px;
+	float: right;
+	margin-top: 8px;
+	border-radius: 16px;
+	border: 1px solid #bababa;
+
+}
+.header .select .bottom .left{
+	width: 76px;
+	height: 31px;
+	float: left;
+
+	border-right: 1px solid #bababa;
+	background-color: #e3e3e3;
+	border-top-left-radius: 16px;
+	border-bottom-left-radius: 16px;
+}
+.header .select .bottom .left span{
+	display: block;
+	float: left;
+	color: #333;
+	text-align: center;
+	line-height: 31px;
+	font-size: 13px;
+	margin-left: 10px;
+}
+.header .select .bottom .left span:hover{
+	color: #347aeb;
+}
+.header .select .bottom .left:hover{
+	cursor: pointer;
+}
+.header .select .bottom .left i{
+	display: block;
+	float: left;
+	line-height: 31px;
+}
+.header .select .bottom .center{
+	width: 278px;
+	height: 31px;
+	float: left;
+	
+	background-color: #fff;
+}
+.header .select .bottom .center  .sousuo{
+	display: block;
+	width: 274px;
+	height: 28px;
+}
+.header .select .bottom .right{
+	width: 44px;
+	height: 31px;
+	float: left;
+	border-left: 1px solid #bababa;
+	background-color: #e3e3e3;
+	border-top-right-radius: 16px;
+	border-bottom-right-radius: 16px;
+
+}
+.header .select .bottom .right i{
+	display: block;
+	line-height: 32px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+.header .select .bottom .right:hover{
+	cursor: pointer;
+	color: #347aeb;
+}
+/* 导航条开始 */
+.navbar{
+	width: 1140px;
+	height: 41px;
+	border: 1px solid #ddd;
+	border-bottom-color: #ccc;
+	border-radius: 4px;
+	margin: 0 auto;
+	display: flex;
+
+}
+.navbar .box{
+	border-right: 1px solid #ddd;
+	background-color: #F0F0F0;
+	flex-grow: 1;
+	text-align: center;
+	line-height: 41px;
+	color: black;
+	font-weight: bold;
+}
+.navbar .box:hover{
+	background-color: #FBFBFB;
+}
+.navbar .box:nth-child(2){
+	background-color: #FBFBFB;
+}
+.navbar:hover{
+	cursor: pointer;
+}
+/* 当前位置 */
+.breadcrumb{
+	width: 1140px;
+	height: 20px;
+	
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.breadcrumb span{
+	color: #0D3D88;
+}
+/* main 开始 */
+.main{
+	width: 1140px; 
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 8px;
+}
+.main .left{
+	width: 860px;
+/* 	height: 4339px; */
+	float: left;
+	
+	border: 1px solid #ddd;
+
+}
+.main .right{
+	width: 270px;
+	float: right;
+	border: 1px solid #ddd;
+}
+.main .left .top{
+	width: 845px;
+	height: 37px;
+	font-size: inherit;
+	font-weight: bold;
+	padding-top: 8px ;
+	padding-left: 15px;
+	background-color: #F5F5F5;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+}
+.main .left .item{
+	width: 100%px;
+	height: 140px;
+	border-bottom: 1px solid #ddd;
+}
+.main .left .item .box{
+	width: 845px;
+	height: 135px;
+	padding-left: 15px;
+	padding-top: 8px;
+	/* background-color: yellow; */
+}
+.main .left .item .item-heading{
+	width: 100%;
+	height: 15px;
+}
+.main .left .item .item-heading .zuo{
+	font-weight: bold;
+	font-size: 15px;
+	height: 15px;
+	float: left;
+	color: #0D3D88;
+}
+.main .left .item .item-heading .zuo:hover{
+	color: #b3a4fc;
+	cursor: pointer;
+}
+.main .left .item .item-heading .you{
+	font-size: 15px;
+	height: 15px;
+	float: right;
+	margin-right: 15px;
+	color: #757575;
+}
+.main .left .item .content{
+	width: 100%;
+	font-size: 13px;
+	font-weight: normal;
+	color: #757575;
+	padding-top: 10px;
+}
+.main .left .item .content .picture{
+	width: 90px;
+	height: 90px;
+	float: right;
+}
+.main .right .top{
+	width: 255px;
+	height: 37px;
+	font-size: inherit;
+	font-weight: bold;
+	padding-top: 8px ;
+	padding-left: 15px;
+	background-color: #F5F5F5;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+}
+.main .right .box{
+	width: 100%;
+	height: 28px;
+	padding-left: 15px;
+	margin-top: 8px;
+	color: #0D3D88;
+}
+
+.main .right .box:hover{
+	cursor: pointer;
+}
+.footer{
+	width: 1140px;
+	height: 238px;
+	background-color: #F7F7F7;
+	border: 1px solid #dddddd;
+	margin-top: 40px;
+	margin: 20px auto 50px auto;
+	display: flex;
+	flex-direction: row-reverse;
+	overflow: hidden;
+
+}
+.footer .box{
+	width: 1108px;
+	height: 100%;
+	display: flex;
+	float: right;
+}
+.footer .box div{
+	width: 25%;
+	height: 80%;
+	
+}
+.footer .box .first h2{
+	display: block;
+	width: 100%;
+	margin-top: 40px;
+	font-size: 15px;
+	text-align: left;
+}
+.footer .box .first p{
+	display: block;
+	width: 120px;
+	height: 120px;
+	margin-top: 10px;
+	
+	
+}
+.footer .box .then h2{
+	display: block;
+	width: 100%;
+	margin-top: 40px;
+	font-size: 15px;
+	text-align: left;
+}
+.footer .box .then p{
+	display: block;
+	margin-top: 10px;
+	font-size: 13px;
+	display: block;
+}
+.footer .box .then a{
+	display: inline-block;
+	width: 100%;
+	color: #777;
+	font-size: 13px;
+}	
+.footer .box a:hover{
+	color: #0D3D88;
+}	
+.footer .box p:hover{
+	color: #0D3D88;
+}
